@@ -20,10 +20,6 @@ public class Calculator {
     }
 
     public int sumAllOperation(int d) {
-        System.out.println("sum = " + sum(d));
-        System.out.println("multiply = " + multiply(d));
-        System.out.println("minus = " + minus(d));
-        System.out.println("divide = " + divide(d));
         return sum(d) + multiply(d) + minus(d) + divide(d);
     }
 
